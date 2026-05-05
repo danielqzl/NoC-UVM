@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="noc_tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="noc_agent_pkg" />
+            <top_module name="noc_env_pkg" />
+            <top_module name="noc_pkg" />
+            <top_module name="noc_seq_list" />
+            <top_module name="noc_tb_top" />
+            <top_module name="noc_test_list" />
+            <top_module name="std" />
+            <top_module name="uvm_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="829.350 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,192.444 ns"></ZoomEndTime>
+      <Cursor1Time time="996.429 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="350"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="group50" type="group">
+      <obj_property name="label">c_if[0] - N0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/noc_tb_top/\c_if[0] /clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[0] /rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[0] /tx_req" type="array">
+         <obj_property name="ElementShortName">tx_req[0:1]</obj_property>
+         <obj_property name="ObjectShortName">tx_req[0:1]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[0] /tx_ready" type="array">
+         <obj_property name="ElementShortName">tx_ready[0:1]</obj_property>
+         <obj_property name="ObjectShortName">tx_ready[0:1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[0] /rx_ready" type="array">
+         <obj_property name="ElementShortName">rx_ready[0:1]</obj_property>
+         <obj_property name="ObjectShortName">rx_ready[0:1]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[0] /rx_packet_0" type="array">
+         <obj_property name="ElementShortName">rx_packet_0</obj_property>
+         <obj_property name="ObjectShortName">rx_packet_0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[0] /rx_packet_1" type="array">
+         <obj_property name="ElementShortName">rx_packet_1</obj_property>
+         <obj_property name="ObjectShortName">rx_packet_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[0] /rd_ch" type="array">
+         <obj_property name="ElementShortName">rd_ch[0:1]</obj_property>
+         <obj_property name="ObjectShortName">rd_ch[0:1]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group213" type="group">
+      <obj_property name="label">Node 0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/noc_tb_top/dut/node_0/noc_clk" type="logic">
+         <obj_property name="ElementShortName">noc_clk</obj_property>
+         <obj_property name="ObjectShortName">noc_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/dut/node_0/u_receiver/client_clk" type="logic">
+         <obj_property name="ElementShortName">client_clk</obj_property>
+         <obj_property name="ObjectShortName">client_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/dut/node_0/u_receiver/packet_ready" type="array">
+         <obj_property name="ElementShortName">packet_ready[0:1]</obj_property>
+         <obj_property name="ObjectShortName">packet_ready[0:1]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="group384" type="group">
+         <obj_property name="label">recv_afifo_0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="group504" type="group">
+         <obj_property name="label">recv_afifo_1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="group585" type="group">
+         <obj_property name="label">vc1_asm</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/noc_tb_top/dut/node_0/u_receiver/vc_1_assembler/valid_i" type="logic">
+            <obj_property name="ElementShortName">valid_i</obj_property>
+            <obj_property name="ObjectShortName">valid_i</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/node_0/u_receiver/vc_1_assembler/flit_i" type="array">
+            <obj_property name="ElementShortName">flit_i</obj_property>
+            <obj_property name="ObjectShortName">flit_i</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/node_0/u_receiver/vc_1_assembler/free" type="array">
+            <obj_property name="ElementShortName">free[0:3]</obj_property>
+            <obj_property name="ObjectShortName">free[0:3]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/node_0/u_receiver/vc_1_assembler/ready" type="array">
+            <obj_property name="ElementShortName">ready[0:3]</obj_property>
+            <obj_property name="ObjectShortName">ready[0:3]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/node_0/u_receiver/vc_1_assembler/packet_tag" type="array">
+            <obj_property name="ElementShortName">packet_tag[0:3][3:0]</obj_property>
+            <obj_property name="ObjectShortName">packet_tag[0:3][3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/node_0/u_receiver/vc_1_assembler/tag_valid" type="array">
+            <obj_property name="ElementShortName">tag_valid[0:3]</obj_property>
+            <obj_property name="ObjectShortName">tag_valid[0:3]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/node_0/u_receiver/vc_1_assembler/tag_hit" type="logic">
+            <obj_property name="ElementShortName">tag_hit</obj_property>
+            <obj_property name="ObjectShortName">tag_hit</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/node_0/u_receiver/vc_1_assembler/packet_tag_i" type="array">
+            <obj_property name="ElementShortName">packet_tag_i[3:0]</obj_property>
+            <obj_property name="ObjectShortName">packet_tag_i[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/node_0/u_receiver/vc_1_assembler/input_idx" type="array">
+            <obj_property name="ElementShortName">input_idx[1:0]</obj_property>
+            <obj_property name="ObjectShortName">input_idx[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/node_0/u_receiver/vc_1_assembler/payload" type="array">
+            <obj_property name="ElementShortName">payload[0:3][143:0]</obj_property>
+            <obj_property name="ObjectShortName">payload[0:3][143:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/node_0/u_receiver/vc_1_assembler/packet_ready" type="logic">
+            <obj_property name="ElementShortName">packet_ready</obj_property>
+            <obj_property name="ObjectShortName">packet_ready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/node_0/u_receiver/vc_1_assembler/read" type="logic">
+            <obj_property name="ElementShortName">read</obj_property>
+            <obj_property name="ObjectShortName">read</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/node_0/u_receiver/vc_1_assembler/read_idx" type="array">
+            <obj_property name="ElementShortName">read_idx[1:0]</obj_property>
+            <obj_property name="ObjectShortName">read_idx[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/node_0/u_receiver/asm_packet" type="array">
+            <obj_property name="ElementShortName">asm_packet[159:0]</obj_property>
+            <obj_property name="ObjectShortName">asm_packet[159:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group265" type="group">
+      <obj_property name="label">Links</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/noc_tb_top/dut/link[0]" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+         <obj_property name="label">[0] - From N0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/dut/link[1]" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+         <obj_property name="label">[1] - To N0</obj_property>
+         <wvobject fp_name="/noc_tb_top/dut/link[1].valid" type="logic">
+            <obj_property name="ElementShortName">.valid</obj_property>
+            <obj_property name="ObjectShortName">.valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/link[1].data" type="array">
+            <obj_property name="ElementShortName">.data</obj_property>
+            <obj_property name="ObjectShortName">.data</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/link[1].ready" type="array">
+            <obj_property name="ElementShortName">.ready[0:1]</obj_property>
+            <obj_property name="ObjectShortName">.ready[0:1]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/dut/link[2]" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+         <obj_property name="label">[2] - From N1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/dut/link[3]" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+         <obj_property name="label">[3] -To N1</obj_property>
+         <wvobject fp_name="/noc_tb_top/dut/link[3].valid" type="logic">
+            <obj_property name="ElementShortName">.valid</obj_property>
+            <obj_property name="ObjectShortName">.valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/link[3].data" type="array">
+            <obj_property name="ElementShortName">.data</obj_property>
+            <obj_property name="ObjectShortName">.data</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/link[3].ready" type="array">
+            <obj_property name="ElementShortName">.ready[0:1]</obj_property>
+            <obj_property name="ObjectShortName">.ready[0:1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/link[3].valid" type="logic">
+            <obj_property name="ElementShortName">.valid</obj_property>
+            <obj_property name="ObjectShortName">.valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/link[3].data" type="array">
+            <obj_property name="ElementShortName">.data</obj_property>
+            <obj_property name="ObjectShortName">.data</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/link[3].ready" type="array">
+            <obj_property name="ElementShortName">.ready[0:1]</obj_property>
+            <obj_property name="ObjectShortName">.ready[0:1]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/dut/link[4]" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+         <obj_property name="label">[4] - From N2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/dut/link[5]" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+         <obj_property name="label">[5] - To N2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/dut/link[6]" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+         <obj_property name="label">[6] - From N3</obj_property>
+         <wvobject fp_name="/noc_tb_top/dut/link[6].valid" type="logic">
+            <obj_property name="ElementShortName">.valid</obj_property>
+            <obj_property name="ObjectShortName">.valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/link[6].data" type="array">
+            <obj_property name="ElementShortName">.data</obj_property>
+            <obj_property name="ObjectShortName">.data</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/link[6].ready" type="array">
+            <obj_property name="ElementShortName">.ready[0:1]</obj_property>
+            <obj_property name="ObjectShortName">.ready[0:1]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/dut/link[7]" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+         <obj_property name="label">[7] - To N3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/dut/link[8]" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+         <obj_property name="label">[8] - R0-&gt;R1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/dut/link[9]" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+         <obj_property name="label">[9] - R1-&gt;R0</obj_property>
+         <wvobject fp_name="/noc_tb_top/dut/link[9].valid" type="logic">
+            <obj_property name="ElementShortName">.valid</obj_property>
+            <obj_property name="ObjectShortName">.valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/link[9].data" type="array">
+            <obj_property name="ElementShortName">.data</obj_property>
+            <obj_property name="ObjectShortName">.data</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/link[9].ready" type="array">
+            <obj_property name="ElementShortName">.ready[0:1]</obj_property>
+            <obj_property name="ObjectShortName">.ready[0:1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/link[9].valid" type="logic">
+            <obj_property name="ElementShortName">.valid</obj_property>
+            <obj_property name="ObjectShortName">.valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/link[9].data" type="array">
+            <obj_property name="ElementShortName">.data</obj_property>
+            <obj_property name="ObjectShortName">.data</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/link[9].ready" type="array">
+            <obj_property name="ElementShortName">.ready[0:1]</obj_property>
+            <obj_property name="ObjectShortName">.ready[0:1]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group152" type="group">
+      <obj_property name="label">c_if[1] - N1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/noc_tb_top/\c_if[1] /tx_ready" type="array">
+         <obj_property name="ElementShortName">tx_ready[0:1]</obj_property>
+         <obj_property name="ObjectShortName">tx_ready[0:1]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[1] /tx_req" type="array">
+         <obj_property name="ElementShortName">tx_req[0:1]</obj_property>
+         <obj_property name="ObjectShortName">tx_req[0:1]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[1] /tx_packet_0" type="array">
+         <obj_property name="ElementShortName">tx_packet_0</obj_property>
+         <obj_property name="ObjectShortName">tx_packet_0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[1] /tx_packet_1" type="array">
+         <obj_property name="ElementShortName">tx_packet_1</obj_property>
+         <obj_property name="ObjectShortName">tx_packet_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[1] /rx_ready" type="array">
+         <obj_property name="ElementShortName">rx_ready[0:1]</obj_property>
+         <obj_property name="ObjectShortName">rx_ready[0:1]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[1] /rx_packet_0" type="array">
+         <obj_property name="ElementShortName">rx_packet_0</obj_property>
+         <obj_property name="ObjectShortName">rx_packet_0</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[1] /rx_packet_1" type="array">
+         <obj_property name="ElementShortName">rx_packet_1</obj_property>
+         <obj_property name="ObjectShortName">rx_packet_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[1] /rd_ch" type="array">
+         <obj_property name="ElementShortName">rd_ch[0:1]</obj_property>
+         <obj_property name="ObjectShortName">rd_ch[0:1]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1350" type="group">
+      <obj_property name="label">Node 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/noc_tb_top/\c_if[1] /clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="group4030" type="group">
+         <obj_property name="label">Tx</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/noc_tb_top/dut/node_1/u_transmiter/flit_out" type="array">
+            <obj_property name="ElementShortName">flit_out</obj_property>
+            <obj_property name="ObjectShortName">flit_out</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/node_1/u_transmiter/vc_w_en" type="array">
+            <obj_property name="ElementShortName">vc_w_en[0:1]</obj_property>
+            <obj_property name="ObjectShortName">vc_w_en[0:1]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/node_1/u_transmiter/vc_inject_en" type="array">
+            <obj_property name="ElementShortName">vc_inject_en[0:1]</obj_property>
+            <obj_property name="ObjectShortName">vc_inject_en[0:1]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/node_1/u_transmiter/link_ready" type="array">
+            <obj_property name="ElementShortName">link_ready[0:1]</obj_property>
+            <obj_property name="ObjectShortName">link_ready[0:1]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/node_1/u_transmiter/flit_enq[1]" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">[1]</obj_property>
+            <obj_property name="label">flit_enq_1</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/dut/node_1/u_receiver/flit_i" type="array">
+         <obj_property name="ElementShortName">flit_i</obj_property>
+         <obj_property name="ObjectShortName">flit_i</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/dut/node_1/u_receiver/vc_w_en" type="array">
+         <obj_property name="ElementShortName">vc_w_en[0:1]</obj_property>
+         <obj_property name="ObjectShortName">vc_w_en[0:1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/dut/node_1/u_receiver/afifo_wr_en" type="array">
+         <obj_property name="ElementShortName">afifo_wr_en[0:1]</obj_property>
+         <obj_property name="ObjectShortName">afifo_wr_en[0:1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/dut/node_1/u_receiver/link_valid" type="logic">
+         <obj_property name="ElementShortName">link_valid</obj_property>
+         <obj_property name="ObjectShortName">link_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/dut/node_1/u_receiver/link_ready" type="array">
+         <obj_property name="ElementShortName">link_ready[0:1]</obj_property>
+         <obj_property name="ObjectShortName">link_ready[0:1]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group394" type="group">
+      <obj_property name="label">c_if[2]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/noc_tb_top/\c_if[2] /clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[2] /tx_req" type="array">
+         <obj_property name="ElementShortName">tx_req[0:1]</obj_property>
+         <obj_property name="ObjectShortName">tx_req[0:1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[2] /tx_packet_0" type="array">
+         <obj_property name="ElementShortName">tx_packet_0</obj_property>
+         <obj_property name="ObjectShortName">tx_packet_0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[2] /tx_packet_1" type="array">
+         <obj_property name="ElementShortName">tx_packet_1</obj_property>
+         <obj_property name="ObjectShortName">tx_packet_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[2] /rx_ready" type="array">
+         <obj_property name="ElementShortName">rx_ready[0:1]</obj_property>
+         <obj_property name="ObjectShortName">rx_ready[0:1]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[2] /rx_packet_0" type="array">
+         <obj_property name="ElementShortName">rx_packet_0</obj_property>
+         <obj_property name="ObjectShortName">rx_packet_0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[2] /rx_packet_1" type="array">
+         <obj_property name="ElementShortName">rx_packet_1</obj_property>
+         <obj_property name="ObjectShortName">rx_packet_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[2] /rd_ch" type="array">
+         <obj_property name="ElementShortName">rd_ch[0:1]</obj_property>
+         <obj_property name="ObjectShortName">rd_ch[0:1]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group5321" type="group">
+      <obj_property name="label">Node 2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/noc_tb_top/dut/node_2/u_receiver/link_valid" type="logic">
+         <obj_property name="ElementShortName">link_valid</obj_property>
+         <obj_property name="ObjectShortName">link_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/dut/node_2/u_receiver/flit_i" type="array">
+         <obj_property name="ElementShortName">flit_i</obj_property>
+         <obj_property name="ObjectShortName">flit_i</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group68" type="group">
+      <obj_property name="label">c_if[3]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/noc_tb_top/\c_if[3] /tx_req" type="array">
+         <obj_property name="ElementShortName">tx_req[0:1]</obj_property>
+         <obj_property name="ObjectShortName">tx_req[0:1]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[3] /tx_packet_0" type="array">
+         <obj_property name="ElementShortName">tx_packet_0</obj_property>
+         <obj_property name="ObjectShortName">tx_packet_0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[3] /tx_packet_1" type="array">
+         <obj_property name="ElementShortName">tx_packet_1</obj_property>
+         <obj_property name="ObjectShortName">tx_packet_1</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[3] /rx_ready" type="array">
+         <obj_property name="ElementShortName">rx_ready[0:1]</obj_property>
+         <obj_property name="ObjectShortName">rx_ready[0:1]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[3] /rx_packet_0" type="array">
+         <obj_property name="ElementShortName">rx_packet_0</obj_property>
+         <obj_property name="ObjectShortName">rx_packet_0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[3] /rx_packet_1" type="array">
+         <obj_property name="ElementShortName">rx_packet_1</obj_property>
+         <obj_property name="ObjectShortName">rx_packet_1</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/\c_if[3] /rd_ch" type="array">
+         <obj_property name="ElementShortName">rd_ch[0:1]</obj_property>
+         <obj_property name="ObjectShortName">rd_ch[0:1]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group75" type="group">
+      <obj_property name="label">Node 3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group2231" type="group">
+         <obj_property name="label">Tx</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/noc_tb_top/dut/node_3/u_transmiter/tx_req" type="array">
+            <obj_property name="ElementShortName">tx_req[0:1]</obj_property>
+            <obj_property name="ObjectShortName">tx_req[0:1]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/node_3/u_transmiter/vc1_fsm/state" type="other">
+            <obj_property name="ElementShortName">state</obj_property>
+            <obj_property name="ObjectShortName">state</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/node_3/u_transmiter/vc1_fsm/next_state" type="other">
+            <obj_property name="ElementShortName">next_state</obj_property>
+            <obj_property name="ObjectShortName">next_state</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/node_3/u_transmiter/vc_w_en" type="array">
+            <obj_property name="ElementShortName">vc_w_en[0:1]</obj_property>
+            <obj_property name="ObjectShortName">vc_w_en[0:1]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/node_3/u_transmiter/flit_enq" type="array">
+            <obj_property name="ElementShortName">flit_enq[0:1]</obj_property>
+            <obj_property name="ObjectShortName">flit_enq[0:1]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group1921" type="group">
+         <obj_property name="label">Rx</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/noc_tb_top/dut/node_3/u_receiver/link_valid" type="logic">
+            <obj_property name="ElementShortName">link_valid</obj_property>
+            <obj_property name="ObjectShortName">link_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/node_3/u_receiver/flit_i" type="array">
+            <obj_property name="ElementShortName">flit_i</obj_property>
+            <obj_property name="ObjectShortName">flit_i</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/node_3/u_receiver/vc_w_en" type="array">
+            <obj_property name="ElementShortName">vc_w_en[0:1]</obj_property>
+            <obj_property name="ObjectShortName">vc_w_en[0:1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="group5524" type="group">
+            <obj_property name="label">iq_1</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/noc_tb_top/dut/node_3/u_receiver/iq_vc_1/wr_en" type="logic">
+               <obj_property name="ElementShortName">wr_en</obj_property>
+               <obj_property name="ObjectShortName">wr_en</obj_property>
+            </wvobject>
+            <wvobject fp_name="/noc_tb_top/dut/node_3/u_receiver/iq_vc_1/wr_data" type="array">
+               <obj_property name="ElementShortName">wr_data[63:0]</obj_property>
+               <obj_property name="ObjectShortName">wr_data[63:0]</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group5592" type="group">
+            <obj_property name="label">afifo_1</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/noc_tb_top/dut/node_3/u_receiver/afifo_1/w_en" type="logic">
+               <obj_property name="ElementShortName">w_en</obj_property>
+               <obj_property name="ObjectShortName">w_en</obj_property>
+            </wvobject>
+            <wvobject fp_name="/noc_tb_top/dut/node_3/u_receiver/afifo_1/wdata" type="array">
+               <obj_property name="ElementShortName">wdata[63:0]</obj_property>
+               <obj_property name="ObjectShortName">wdata[63:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/noc_tb_top/dut/node_3/u_receiver/afifo_1/r_en" type="logic">
+               <obj_property name="ElementShortName">r_en</obj_property>
+               <obj_property name="ObjectShortName">r_en</obj_property>
+            </wvobject>
+            <wvobject fp_name="/noc_tb_top/dut/node_3/u_receiver/afifo_1/rdata" type="array">
+               <obj_property name="ElementShortName">rdata[63:0]</obj_property>
+               <obj_property name="ObjectShortName">rdata[63:0]</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group5591" type="group">
+            <obj_property name="label">ASM</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/noc_tb_top/dut/node_3/u_receiver/vc_1_assembler/valid_i" type="logic">
+               <obj_property name="ElementShortName">valid_i</obj_property>
+               <obj_property name="ObjectShortName">valid_i</obj_property>
+            </wvobject>
+            <wvobject fp_name="/noc_tb_top/dut/node_3/u_receiver/vc_1_assembler/flit_i" type="array">
+               <obj_property name="ElementShortName">flit_i</obj_property>
+               <obj_property name="ObjectShortName">flit_i</obj_property>
+               <obj_property name="isExpanded"></obj_property>
+            </wvobject>
+            <wvobject fp_name="/noc_tb_top/dut/node_3/u_receiver/vc_1_assembler/payload" type="array">
+               <obj_property name="ElementShortName">payload[0:3][143:0]</obj_property>
+               <obj_property name="ObjectShortName">payload[0:3][143:0]</obj_property>
+               <obj_property name="isExpanded"></obj_property>
+            </wvobject>
+            <wvobject fp_name="/noc_tb_top/dut/node_3/u_receiver/asm_packet_ready" type="logic">
+               <obj_property name="ElementShortName">asm_packet_ready</obj_property>
+               <obj_property name="ObjectShortName">asm_packet_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/noc_tb_top/dut/node_3/u_receiver/asm_packet" type="array">
+               <obj_property name="ElementShortName">asm_packet[159:0]</obj_property>
+               <obj_property name="ObjectShortName">asm_packet[159:0]</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group2320" type="group">
+      <obj_property name="label">Router 0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/noc_tb_top/dut/u_router_0/voq_enq" type="array">
+         <obj_property name="ElementShortName">voq_enq[0:2][0:1]</obj_property>
+         <obj_property name="ObjectShortName">voq_enq[0:2][0:1]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/dut/u_router_0/flit_in" type="array">
+         <obj_property name="ElementShortName">flit_in[0:2]</obj_property>
+         <obj_property name="ObjectShortName">flit_in[0:2]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/flit_in[0]" type="array">
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">[0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/flit_in[1]" type="array">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">[1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/flit_in[2]" type="array">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">[2]</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/flit_in[0]" type="array">
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">[0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/flit_in[1]" type="array">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">[1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/flit_in[2]" type="array">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">[2]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group4244" type="group">
+         <obj_property name="label">voq_i1_c1_o2</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\genblk1[1].genblk1[1].genblk1[2].genblk1.u_voq /accept_flit" type="logic">
+            <obj_property name="ElementShortName">accept_flit</obj_property>
+            <obj_property name="ObjectShortName">accept_flit</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\genblk1[1].genblk1[1].genblk1[2].genblk1.u_voq /wr_en" type="logic">
+            <obj_property name="ElementShortName">wr_en</obj_property>
+            <obj_property name="ObjectShortName">wr_en</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\genblk1[1].genblk1[1].genblk1[2].genblk1.u_voq /flit_in" type="array">
+            <obj_property name="ElementShortName">flit_in</obj_property>
+            <obj_property name="ObjectShortName">flit_in</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\genblk1[1].genblk1[1].genblk1[2].genblk1.u_voq /inhibit" type="logic">
+            <obj_property name="ElementShortName">inhibit</obj_property>
+            <obj_property name="ObjectShortName">inhibit</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\genblk1[1].genblk1[1].genblk1[2].genblk1.u_voq /inhibit_d1" type="logic">
+            <obj_property name="ElementShortName">inhibit_d1</obj_property>
+            <obj_property name="ObjectShortName">inhibit_d1</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\genblk1[1].genblk1[1].genblk1[2].genblk1.u_voq /full" type="logic">
+            <obj_property name="ElementShortName">full</obj_property>
+            <obj_property name="ObjectShortName">full</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\genblk1[1].genblk1[1].genblk1[2].genblk1.u_voq /full_p" type="logic">
+            <obj_property name="ElementShortName">full_p</obj_property>
+            <obj_property name="ObjectShortName">full_p</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\genblk1[1].genblk1[1].genblk1[2].genblk1.u_voq /u_queue/fifo" type="array">
+            <obj_property name="ElementShortName">fifo[0:3][63:0]</obj_property>
+            <obj_property name="ObjectShortName">fifo[0:3][63:0]</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\genblk1[1].genblk1[1].genblk1[2].genblk1.u_voq /rd_en" type="logic">
+            <obj_property name="ElementShortName">rd_en</obj_property>
+            <obj_property name="ObjectShortName">rd_en</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\genblk1[1].genblk1[1].genblk1[2].genblk1.u_voq /flit_out" type="array">
+            <obj_property name="ElementShortName">flit_out</obj_property>
+            <obj_property name="ObjectShortName">flit_out</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group2874" type="group">
+         <obj_property name="label">voq_i1_c1_o0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\genblk1[1].genblk1[1].genblk1[0].genblk1.u_voq /enqueue" type="logic">
+            <obj_property name="ElementShortName">enqueue</obj_property>
+            <obj_property name="ObjectShortName">enqueue</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\genblk1[1].genblk1[1].genblk1[0].genblk1.u_voq /flit_in" type="array">
+            <obj_property name="ElementShortName">flit_in</obj_property>
+            <obj_property name="ObjectShortName">flit_in</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\genblk1[1].genblk1[1].genblk1[0].genblk1.u_voq /inhibit" type="logic">
+            <obj_property name="ElementShortName">inhibit</obj_property>
+            <obj_property name="ObjectShortName">inhibit</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\genblk1[1].genblk1[1].genblk1[0].genblk1.u_voq /flit_out" type="array">
+            <obj_property name="ElementShortName">flit_out</obj_property>
+            <obj_property name="ObjectShortName">flit_out</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\genblk1[1].genblk1[1].genblk1[0].genblk1.u_voq /u_queue/wr_en" type="logic">
+            <obj_property name="ElementShortName">wr_en</obj_property>
+            <obj_property name="ObjectShortName">wr_en</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\genblk1[1].genblk1[1].genblk1[0].genblk1.u_voq /u_queue/rd_data" type="array">
+            <obj_property name="ElementShortName">rd_data[63:0]</obj_property>
+            <obj_property name="ObjectShortName">rd_data[63:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group1986" type="group">
+         <obj_property name="label">voq_i2_c1_o0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\genblk1[2].genblk1[1].genblk1[0].genblk1.u_voq /valid_i" type="logic">
+            <obj_property name="ElementShortName">valid_i</obj_property>
+            <obj_property name="ObjectShortName">valid_i</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\genblk1[2].genblk1[1].genblk1[0].genblk1.u_voq /wr_en" type="logic">
+            <obj_property name="ElementShortName">wr_en</obj_property>
+            <obj_property name="ObjectShortName">wr_en</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\genblk1[2].genblk1[1].genblk1[0].genblk1.u_voq /full" type="logic">
+            <obj_property name="ElementShortName">full</obj_property>
+            <obj_property name="ObjectShortName">full</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\genblk1[2].genblk1[1].genblk1[0].genblk1.u_voq /full_p" type="logic">
+            <obj_property name="ElementShortName">full_p</obj_property>
+            <obj_property name="ObjectShortName">full_p</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\genblk1[2].genblk1[1].genblk1[0].genblk1.u_voq /flit_in" type="array">
+            <obj_property name="ElementShortName">flit_in</obj_property>
+            <obj_property name="ObjectShortName">flit_in</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group2539" type="group">
+         <obj_property name="label">out_buf_0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\g_output_buf[0].u_out_buf /valid_i" type="array">
+            <obj_property name="ElementShortName">valid_i[0:1]</obj_property>
+            <obj_property name="ObjectShortName">valid_i[0:1]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\g_output_buf[0].u_out_buf /flit_in" type="array">
+            <obj_property name="ElementShortName">flit_in[0:1]</obj_property>
+            <obj_property name="ObjectShortName">flit_in[0:1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\g_output_buf[0].u_out_buf /link_ready" type="array">
+            <obj_property name="ElementShortName">link_ready[0:1]</obj_property>
+            <obj_property name="ObjectShortName">link_ready[0:1]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\g_output_buf[0].u_out_buf /inject_en" type="array">
+            <obj_property name="ElementShortName">inject_en[0:1]</obj_property>
+            <obj_property name="ObjectShortName">inject_en[0:1]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\g_output_buf[0].u_out_buf /flit_out" type="array">
+            <obj_property name="ElementShortName">flit_out</obj_property>
+            <obj_property name="ObjectShortName">flit_out</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\g_output_buf[0].u_out_buf /link_o" type="array">
+            <obj_property name="ElementShortName">link_o</obj_property>
+            <obj_property name="ObjectShortName">link_o</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\g_output_buf[0].u_out_buf /full" type="array">
+            <obj_property name="ElementShortName">full[0:1]</obj_property>
+            <obj_property name="ObjectShortName">full[0:1]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group2321" type="group">
+         <obj_property name="label">out_buf_2</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\g_output_buf[2].u_out_buf /full" type="array">
+            <obj_property name="ElementShortName">full[0:1]</obj_property>
+            <obj_property name="ObjectShortName">full[0:1]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\g_output_buf[2].u_out_buf /valid_i" type="array">
+            <obj_property name="ElementShortName">valid_i[0:1]</obj_property>
+            <obj_property name="ObjectShortName">valid_i[0:1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\g_output_buf[2].u_out_buf /flit_in" type="array">
+            <obj_property name="ElementShortName">flit_in[0:1]</obj_property>
+            <obj_property name="ObjectShortName">flit_in[0:1]</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\g_output_buf[2].u_out_buf /link_ready" type="array">
+            <obj_property name="ElementShortName">link_ready[0:1]</obj_property>
+            <obj_property name="ObjectShortName">link_ready[0:1]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\g_output_buf[2].u_out_buf /inject_en" type="array">
+            <obj_property name="ElementShortName">inject_en[0:1]</obj_property>
+            <obj_property name="ObjectShortName">inject_en[0:1]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/\g_output_buf[2].u_out_buf /flit_out" type="array">
+            <obj_property name="ElementShortName">flit_out</obj_property>
+            <obj_property name="ObjectShortName">flit_out</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_0/link_o" type="array">
+            <obj_property name="ElementShortName">link_o[0:2]</obj_property>
+            <obj_property name="ObjectShortName">link_o[0:2]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/dut/u_router_0/link_i" type="array">
+         <obj_property name="ElementShortName">link_i[0:2]</obj_property>
+         <obj_property name="ObjectShortName">link_i[0:2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/dut/u_router_0/link_o" type="array">
+         <obj_property name="ElementShortName">link_o[0:2]</obj_property>
+         <obj_property name="ObjectShortName">link_o[0:2]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group2267" type="group">
+      <obj_property name="label">Router 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/noc_tb_top/dut/u_router_1/link_i" type="array">
+         <obj_property name="ElementShortName">link_i[0:2]</obj_property>
+         <obj_property name="ObjectShortName">link_i[0:2]</obj_property>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_1/link_i[0]" type="array">
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">[0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_1/link_i[1]" type="array">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">[1]</obj_property>
+            <wvobject fp_name="/noc_tb_top/dut/u_router_1/link_i[1].valid" type="logic">
+               <obj_property name="ElementShortName">.valid</obj_property>
+               <obj_property name="ObjectShortName">.valid</obj_property>
+            </wvobject>
+            <wvobject fp_name="/noc_tb_top/dut/u_router_1/link_i[1].data" type="array">
+               <obj_property name="ElementShortName">.data</obj_property>
+               <obj_property name="ObjectShortName">.data</obj_property>
+               <obj_property name="isExpanded"></obj_property>
+            </wvobject>
+            <wvobject fp_name="/noc_tb_top/dut/u_router_1/link_i[1].ready" type="array">
+               <obj_property name="ElementShortName">.ready[0:1]</obj_property>
+               <obj_property name="ObjectShortName">.ready[0:1]</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_1/link_i[2]" type="array">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">[2]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_1/link_i[0]" type="array">
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">[0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_1/link_i[1]" type="array">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">[1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_1/link_i[2]" type="array">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">[2]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/noc_tb_top/dut/u_router_1/flit_in" type="array">
+         <obj_property name="ElementShortName">flit_in[0:2]</obj_property>
+         <obj_property name="ObjectShortName">flit_in[0:2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="group5031" type="group">
+         <obj_property name="label">out_buf_0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[0].u_out_buf /valid_i" type="array">
+            <obj_property name="ElementShortName">valid_i[0:1]</obj_property>
+            <obj_property name="ObjectShortName">valid_i[0:1]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[0].u_out_buf /flit_in" type="array">
+            <obj_property name="ElementShortName">flit_in[0:1]</obj_property>
+            <obj_property name="ObjectShortName">flit_in[0:1]</obj_property>
+            <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[0].u_out_buf /flit_in[0]" type="array">
+               <obj_property name="ElementShortName">[0]</obj_property>
+               <obj_property name="ObjectShortName">[0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[0].u_out_buf /flit_in[1]" type="array">
+               <obj_property name="ElementShortName">[1]</obj_property>
+               <obj_property name="ObjectShortName">[1]</obj_property>
+               <obj_property name="isExpanded"></obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[0].u_out_buf /inject_en" type="array">
+            <obj_property name="ElementShortName">inject_en[0:1]</obj_property>
+            <obj_property name="ObjectShortName">inject_en[0:1]</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[0].u_out_buf /flit_out" type="array">
+            <obj_property name="ElementShortName">flit_out</obj_property>
+            <obj_property name="ObjectShortName">flit_out</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group5042" type="group">
+         <obj_property name="label">out_buf_1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group5810" type="group">
+            <obj_property name="label">VOQ</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/noc_tb_top/dut/u_router_1/\genblk1[2].genblk1[1].genblk1[1].genblk1.u_voq /accept_flit" type="logic">
+               <obj_property name="ElementShortName">accept_flit</obj_property>
+               <obj_property name="ObjectShortName">accept_flit</obj_property>
+            </wvobject>
+            <wvobject fp_name="/noc_tb_top/dut/u_router_1/\genblk1[2].genblk1[1].genblk1[1].genblk1.u_voq /u_queue/wr_en" type="logic">
+               <obj_property name="ElementShortName">wr_en</obj_property>
+               <obj_property name="ObjectShortName">wr_en</obj_property>
+            </wvobject>
+            <wvobject fp_name="/noc_tb_top/dut/u_router_1/\genblk1[2].genblk1[1].genblk1[1].genblk1.u_voq /u_queue/wr_data" type="array">
+               <obj_property name="ElementShortName">wr_data[63:0]</obj_property>
+               <obj_property name="ObjectShortName">wr_data[63:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/noc_tb_top/dut/u_router_1/\genblk1[2].genblk1[1].genblk1[1].genblk1.u_voq /u_queue/rd_en" type="logic">
+               <obj_property name="ElementShortName">rd_en</obj_property>
+               <obj_property name="ObjectShortName">rd_en</obj_property>
+            </wvobject>
+            <wvobject fp_name="/noc_tb_top/dut/u_router_1/\genblk1[2].genblk1[1].genblk1[1].genblk1.u_voq /u_queue/rd_data" type="array">
+               <obj_property name="ElementShortName">rd_data[63:0]</obj_property>
+               <obj_property name="ObjectShortName">rd_data[63:0]</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[1].u_out_buf /full" type="array">
+            <obj_property name="ElementShortName">full[0:1]</obj_property>
+            <obj_property name="ObjectShortName">full[0:1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[1].u_out_buf /valid_i" type="array">
+            <obj_property name="ElementShortName">valid_i[0:1]</obj_property>
+            <obj_property name="ObjectShortName">valid_i[0:1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[1].u_out_buf /flit_in" type="array">
+            <obj_property name="ElementShortName">flit_in[0:1]</obj_property>
+            <obj_property name="ObjectShortName">flit_in[0:1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[1].u_out_buf /inject_en" type="array">
+            <obj_property name="ElementShortName">inject_en[0:1]</obj_property>
+            <obj_property name="ObjectShortName">inject_en[0:1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[1].u_out_buf /flit_deq" type="array">
+            <obj_property name="ElementShortName">flit_deq[0:1]</obj_property>
+            <obj_property name="ObjectShortName">flit_deq[0:1]</obj_property>
+            <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[1].u_out_buf /flit_deq[0]" type="array">
+               <obj_property name="ElementShortName">[0]</obj_property>
+               <obj_property name="ObjectShortName">[0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[1].u_out_buf /flit_deq[1]" type="array">
+               <obj_property name="ElementShortName">[1]</obj_property>
+               <obj_property name="ObjectShortName">[1]</obj_property>
+               <obj_property name="isExpanded"></obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group5028" type="group">
+         <obj_property name="label">out_buf_2</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[2].u_out_buf /valid_i" type="array">
+            <obj_property name="ElementShortName">valid_i[0:1]</obj_property>
+            <obj_property name="ObjectShortName">valid_i[0:1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[2].u_out_buf /flit_in" type="array">
+            <obj_property name="ElementShortName">flit_in[0:1]</obj_property>
+            <obj_property name="ObjectShortName">flit_in[0:1]</obj_property>
+            <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[2].u_out_buf /flit_in[0]" type="array">
+               <obj_property name="ElementShortName">[0]</obj_property>
+               <obj_property name="ObjectShortName">[0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[2].u_out_buf /flit_in[1]" type="array">
+               <obj_property name="ElementShortName">[1]</obj_property>
+               <obj_property name="ObjectShortName">[1]</obj_property>
+               <obj_property name="isExpanded"></obj_property>
+            </wvobject>
+            <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[2].u_out_buf /flit_in[0]" type="array">
+               <obj_property name="ElementShortName">[0]</obj_property>
+               <obj_property name="ObjectShortName">[0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[2].u_out_buf /flit_in[1]" type="array">
+               <obj_property name="ElementShortName">[1]</obj_property>
+               <obj_property name="ObjectShortName">[1]</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[2].u_out_buf /inject_en" type="array">
+            <obj_property name="ElementShortName">inject_en[0:1]</obj_property>
+            <obj_property name="ObjectShortName">inject_en[0:1]</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[2].u_out_buf /flit_out" type="array">
+            <obj_property name="ElementShortName">flit_out</obj_property>
+            <obj_property name="ObjectShortName">flit_out</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+         </wvobject>
+         <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[2].u_out_buf /link_o" type="array">
+            <obj_property name="ElementShortName">link_o</obj_property>
+            <obj_property name="ObjectShortName">link_o</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[2].u_out_buf /link_o.valid" type="logic">
+               <obj_property name="ElementShortName">.valid</obj_property>
+               <obj_property name="ObjectShortName">.valid</obj_property>
+            </wvobject>
+            <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[2].u_out_buf /link_o.data" type="array">
+               <obj_property name="ElementShortName">.data</obj_property>
+               <obj_property name="ObjectShortName">.data</obj_property>
+               <obj_property name="isExpanded"></obj_property>
+            </wvobject>
+            <wvobject fp_name="/noc_tb_top/dut/u_router_1/\g_output_buf[2].u_out_buf /link_o.ready" type="array">
+               <obj_property name="ElementShortName">.ready[0:1]</obj_property>
+               <obj_property name="ObjectShortName">.ready[0:1]</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>
